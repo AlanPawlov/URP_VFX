@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; flex-wrap: nowrap; height: 100%; width: 100%; min-height: 100%; min-width: 100%; -unity-slice-scale: 0; right: 0; bottom: 10px; top: 0; left: 0; max-width: 100%; max-height: 100%;">
+        <ui:Button text="Save" display-tooltip-when-elided="true" name="Save" style="width: 50px; height: 50px;" />
+        <ui:Button text="Load" display-tooltip-when-elided="true" name="Load" style="width: 50px; height: 50px;" />
+        <ui:Button text="Add" display-tooltip-when-elided="true" name="AddElement" style="width: 50px; height: 50px;" />
+        <ui:Button text="Remove" display-tooltip-when-elided="true" name="RemoveElement" style="width: 50px; height: 50px;" />
+        <ui:Button text="HideCategory" display-tooltip-when-elided="true" name="HideCategory" style="width: 50px; height: 50px;" />
+    </ui:VisualElement>
+</ui:UXML>

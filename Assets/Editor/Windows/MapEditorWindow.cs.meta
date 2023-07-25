@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 25037e79baa7f314f8672189a36e21d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - _categorySprites: {fileID: 21300000, guid: ff7bfa7addf40784d86f62b8e4a034a6, type: 3}
+  - _mapAsset: {fileID: 9197481963319205126, guid: 9c876d922109be74997c6a7c2bb3240b, type: 3}
+  - _editorCategoryAsset: {fileID: 9197481963319205126, guid: 30ba2557d013a1b40babb0b7224bd2e5, type: 3}
+  - _toolBarAsset: {fileID: 9197481963319205126, guid: 8e0a3f9467392774698be05cf5074ec1, type: 3}
+  - _gameDataSo: {fileID: 11400000, guid: b8b052195d49fc141bc2325a146051aa, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

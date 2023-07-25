@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; background-image: none;">
+        <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:IntegerField label="Id" value="0" name="Id" />
+            <ui:TextField picking-mode="Ignore" label="Name" value="filler text" name="Name" binding-path="Name" />
+            <ui:TextField picking-mode="Ignore" label="Description" value="filler text" name="Description" binding-path="Description" />
+            <ui:IntegerField label="Max Players" value="42" name="MaxPlayers" binding-path="MaxPlayers" />
+            <uie:ObjectField label="Map Icon" type="UnityEngine.Sprite, UnityEngine.CoreModule" name="MapIcon" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MapIconView" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: none; width: 100px; height: 100px; min-width: 10px; min-height: 10px; max-width: 10%;" />
+    </ui:VisualElement>
+    <ui:VisualElement focusable="true" name="Border" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 2px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; max-height: 4px; min-height: 2px; width: 100%; max-width: 100%; min-width: 100%; -unity-background-image-tint-color: rgb(0, 0, 0); background-image: url(&apos;project://database/Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png?fileID=21300000&amp;guid=90ded0611e490aa4ba6961afbfc2280d&amp;type=3#UI_Circle_Faded&apos;);" />
+</ui:UXML>
