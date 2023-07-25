@@ -1,6 +1,13 @@
 name: Build project on all Platform
 
-# on: [push, pull_request]
+on:
+  workflow_call:
+    inputs:
+      username:
+        description: 'A username passed from the caller workflow'
+        default: 'dev'
+        required: false
+        type: string
 
 jobs:
   buildForAllSupportedPlatforms:

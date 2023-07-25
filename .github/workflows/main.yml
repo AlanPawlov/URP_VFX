@@ -1,8 +1,13 @@
 name: Test and Build to Pages 📝 🚧 🎮
 
-# on:
-#   pull_request: {}
-#   push: { branches: [master] }
+on:
+  workflow_call:
+    inputs:
+      username:
+        description: 'A username passed from the caller workflow'
+        default: 'john-doe'
+        required: false
+        type: string
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
