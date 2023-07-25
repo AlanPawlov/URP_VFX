@@ -95,7 +95,7 @@ jobs:
           name: build-WebGL
           path: build/WebGL
 
-
+  # работает только на публичных репозиториях либо на про версии гитхаба
   deployPages:
     needs: buildWebGL
     name: Deploy to Github Pages 🚀
