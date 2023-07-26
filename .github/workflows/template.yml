@@ -1,4 +1,4 @@
-name: GameCI Template 🎮
+name: Template
 
 on: 
   workflow_dispatch: {}
