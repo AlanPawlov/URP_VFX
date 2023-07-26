@@ -9,7 +9,6 @@ env:
 
 jobs:
   buildAndroid:
-    needs: checkLicense
     name: Build for Android 📱
     runs-on: ubuntu-latest
     strategy:
